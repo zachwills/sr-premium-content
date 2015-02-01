@@ -1,5 +1,6 @@
 /*
   Styles for the overlay
+  (super basic stuff)
  */
 .sr-overlay {
   position: fixed;
@@ -14,7 +15,7 @@
   background: rgba(0, 0, 0, .9);
 }
 
-.sr-overlay-inner {
+.sr-overlay__inner {
   position: relative;
   top: 50%;
 
@@ -28,32 +29,4 @@
   text-align: center;
 
   background: #fff;
-}
-
-.sr-overlay-inner h2 {
-  text-align: center;
-}
-
-.field.hs-form-field.smart-field {
-  display: inline-block !important;
-  padding-top: 10px;
-}
-
-.hubspot-form-holder .actions {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-.hubspot-form-holder .hs_submit .hs-button {
-  margin-left: 1em;
-
-  border: 0;
-  border-radius: 0;
-  background: #46b047;
-  text-shadow: 0;
-}
-
-.hubspot-form-holder .hs_submit .hs-button:hover {
-  box-shadow: 0;
-  border: 0;
 }
